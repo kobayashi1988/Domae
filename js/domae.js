@@ -9,9 +9,15 @@ LEIHAUOLI.COMMON.CAROUSEL = {
     setParameters : function(){
         this.$container = $('.jsc-carousel-container');
         this.$images = this.$container.children('li');
+        this.imageCount = this.$images.length;
+        this.currentIndex = 0;
     },
     bindEvent : function(){
-        
+        this.$images.swipe({
+            swipe : function(){
+              console.log('hoge')
+            }
+        });
     }
 }
 
