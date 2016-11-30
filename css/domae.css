@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+header,
+footer {
+    background-color: skyblue;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.slide-block {
+    overflow: hidden;
+}
+
+.slide-contents-box {
+    font-size: 0;
+    width: 1280px;
+}
+
+.slide-contents-box > li {
+    display: inline-block;
+    width: 320px;
+}
+
+.indicator-box {
+    font-size: 0;
+    text-align: center;
+    background-color: #050F55;
+    padding: 10px 0;
+}
+
+.indicator-box > li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #CDCDCD;
+    border-radius: 5px;
+    margin: 0 5px;
+}

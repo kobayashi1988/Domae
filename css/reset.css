@@ -1,0 +1,49 @@
+@charset "Shift_JIS";
+
+body, div, p,  ul, ol, li, dl, dt, dd, table, th ,td, img, figure,
+h1, h2, h3 ,h4 ,h5, h6, form, select {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol		{ list-style: none; }
+
+img		{ border: 0; vertical-align: middle; }
+
+svg,
+input,
+select,
+textarea,
+label	{ vertical-align: middle; }
+
+table	{ border-collapse: collapse; }
+
+h1, h2, h3 ,h4 ,h5, h6, th, em, strong { font-weight: normal; }
+
+*,
+*:before,
+*:after {
+	word-break: break-all;
+	box-sizing: border-box;
+}
+pre	 {
+	white-space: pre-wrap;
+}
+
+main, article, aside, figcaption, figure,
+footer, header, nav, section, details, summary {
+	display: block;
+}
+
+body {
+	-webkit-text-size-adjust: 100%;
+}
+input {
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+a {
+	text-decoration: none;
+}
